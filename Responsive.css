@@ -1,0 +1,77 @@
+@media (max-width: 768px){
+	#carouselExampleCaptions .carousel-caption{
+			left: 50%;
+			top: 40%;
+		}
+	#carouselExampleCaptions .carousel-caption .hero_txt{
+			width: 100%;
+		}
+	#carouselExampleCaptions .carousel-caption .last_p{
+		display: none;
+	}		
+	#carouselExampleCaptions .carousel-caption h5 {
+     	 font-size: 2rem;  /* Adjust this value for your preferred size */
+     	 font-weight: bold;
+    	}
+
+    #carouselExampleCaptions .carousel-caption p {
+      	 font-size: 1rem;  /* Adjust this value for your preferred size */
+      	 font-weight: normal;
+   		}
+
+
+}
+
+/*timeline*/
+@media (max-width: 1000px){
+  
+  .timeline{
+    width:100%;
+  }
+  	.f-lnik{width: 592px;}
+	.footer-container{flex-wrap: wrap;}
+	 #carouselExampleCaptions .carousel-inner img{
+	 	height: 100%!important;
+	 }
+	 #about_card .card-text{
+	 	font-size: 1rem!important;
+	 }	
+}
+
+
+@media (max-width: 767px){
+  .timeline{
+    width:100%;
+  }
+  .timeline:before{
+    left:20px;
+  }
+  .timeline ul li:nth-child(odd),
+  .timeline ul li:nth-child(even){
+    width:100%;
+    text-align:left;
+   padding-left:50px; 
+  }
+  
+  .timeline ul li:nth-child(odd):before
+    {
+    top:-18px;
+    left:16px;
+  
+  }
+  .timeline ul li:nth-child(even):before
+  { 
+    top:-18px;
+    left:16px;
+  }
+  
+    .timeline ul li:nth-child(odd) .left_content,
+  .timeline ul li:nth-child(even) .left_content
+  {
+    top:-30px;
+    left:50px;
+    right:inherit;
+  }
+
+  
+}
