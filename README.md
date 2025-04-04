@@ -9,7 +9,6 @@ Welcome to my portfolio website! This website is built using Bootstrap 5, HTML, 
 - [Setup](#setup)
 - [Project Structure](#project-structure)
 - [Live Demo](#live-demo)
-- [License](#license)
 
 ## Technologies Used
 
@@ -35,4 +34,4 @@ To get started with this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-   git clone https://github.com/HackAkramAli/your-portfolio.git
+   git clone https://github.com/HackAkramAli/Portfolio.git
